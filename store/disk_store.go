@@ -40,7 +40,7 @@ func NewCluster(numOfNodes uint32) *Cluster {
 func newStore(nodeNum uint32) (*DiskStore, error) {
 	ds := &DiskStore{memtable: NewMemtable(), bucketManager: InitBucketManager()}
 
-	logFile, err := os.OpenFile(fmt.Sprintf("../log/kvcache_wal-%d.log", nodeNum), os.O_APPEND|os.O_RDWR|os.O_CREATE, 0666)
+	logFile, err := os.OpenFile(fmt.Sprintf("./log/kvcache_wal-%d.log", nodeNum), os.O_APPEND|os.O_RDWR|os.O_CREATE, 0666)
 	if err != nil {
 		return nil, err
 	}
