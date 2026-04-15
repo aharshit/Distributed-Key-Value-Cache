@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/user/kvcache/utils"
+	"github.com/aharshit/Distributed-Key-Value-Cache/utils"
 )
 
 const (

@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/user/kvcache/utils"
+	"github.com/aharshit/Distributed-Key-Value-Cache/utils"
 )
 
 type Store interface {

@@ -1,7 +1,7 @@
 package store
 
 import (
-	"github.com/user/kvcache/utils"
+	"github.com/aharshit/Distributed-Key-Value-Cache/utils"
 )
 
 type BucketManager struct {

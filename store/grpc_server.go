@@ -8,7 +8,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/user/kvcache/proto"
+	"github.com/aharshit/Distributed-Key-Value-Cache/proto"
 )
 
 type dataMigrationServer struct {

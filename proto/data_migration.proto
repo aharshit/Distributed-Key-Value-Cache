@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/user/kvcache/proto";
+option go_package = "github.com/aharshit/Distributed-Key-Value-Cache/proto";
 
 service DataMigrationService {
   rpc MigrateKeyValuePairs(KeyValueMigrationRequest) returns (KeyValueMigrationResponse);

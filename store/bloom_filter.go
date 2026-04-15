@@ -7,7 +7,7 @@ import (
 
 	"github.com/spaolacci/murmur3"
 
-	"github.com/user/kvcache/utils"
+	"github.com/aharshit/Distributed-Key-Value-Cache/utils"
 )
 
 type BloomFilter struct {

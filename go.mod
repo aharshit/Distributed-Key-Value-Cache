@@ -1,4 +1,4 @@
-module github.com/user/kvcache
+module github.com/aharshit/Distributed-Key-Value-Cache
 
 go 1.24.0
 

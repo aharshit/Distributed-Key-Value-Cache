@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/user/kvcache/utils"
+	"github.com/aharshit/Distributed-Key-Value-Cache/utils"
 
-	"github.com/user/kvcache/proto"
+	"github.com/aharshit/Distributed-Key-Value-Cache/proto"
 )
 
 type DiskStore struct {

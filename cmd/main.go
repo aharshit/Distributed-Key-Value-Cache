@@ -1,6 +1,6 @@
 package main
 
-import "github.com/user/kvcache/store"
+import "github.com/aharshit/Distributed-Key-Value-Cache/store"
 
 func main() {
 	c := store.NewCluster(5)

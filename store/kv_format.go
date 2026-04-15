@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"hash/crc32"
 
-	"github.com/user/kvcache/utils"
+	"github.com/aharshit/Distributed-Key-Value-Cache/utils"
 )
 
 const headerSize = 17

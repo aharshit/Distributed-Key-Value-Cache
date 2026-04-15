@@ -5,7 +5,7 @@ import (
 
 	rbt "github.com/emirpasic/gods/trees/redblacktree"
 
-	"github.com/user/kvcache/utils"
+	"github.com/aharshit/Distributed-Key-Value-Cache/utils"
 )
 
 type Memtable struct {

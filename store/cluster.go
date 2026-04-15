@@ -10,10 +10,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/user/kvcache/utils"
+	"github.com/aharshit/Distributed-Key-Value-Cache/utils"
 
-	"github.com/user/kvcache/http"
-	"github.com/user/kvcache/proto"
+	"github.com/aharshit/Distributed-Key-Value-Cache/http"
+	"github.com/aharshit/Distributed-Key-Value-Cache/proto"
 
 	"github.com/serialx/hashring"
 	"google.golang.org/grpc"

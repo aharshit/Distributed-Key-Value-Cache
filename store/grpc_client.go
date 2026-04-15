@@ -1,7 +1,7 @@
 package store
 
 import (
-	"github.com/user/kvcache/proto"
+	"github.com/aharshit/Distributed-Key-Value-Cache/proto"
 
 	"fmt"
 	"log"
